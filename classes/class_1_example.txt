@@ -1,0 +1,17 @@
+teacher_chair is an instance of the class teacher_chair
+
+Attributes:
+height (40)
+width (30)
+tilt_angle (0)
+max_weight (300)
+adjustable_height (true)
+adjustable_tilt (true)
+wheels (5)
+
+Methods:
+roll (available since the wheels attribute is 5)
+increase_height (Would change original height to 41.  Available since the adjustable attribute is true.)
+decrease_height (Would change original height to 39.  Available since the adjustable attribute is true)
+tilt (Temporarily increases tilt_angle by 15, up from 0)
+tilt_lock (Will keep the tilt_angle at 15 until disabled)
