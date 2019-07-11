@@ -3,12 +3,15 @@ Class: chair
 Attributes:
 height (integer)
 width (integer)
+tilt_angle (integer)
 max_weight (integer)
-adjustable (boolean)
+adjustable_height (boolean)
+adjustable_tilt (boolean)
 wheels (integer)
 
 Methods:
 roll (only available if wheels is greater than 1)
 increase_height (Increases height by 1 each time it is used.  Only available if adjustable attribute is true.)
 decrease_height (Decreases height by 1 each time it is used.  Only available if adjustable attribute is true.)
-break (Reduces height to 0.  Happens if max_weight attribute is exceeded)
+tilt (Available if adjustable_tilt is true.  Temporarily increases tilt by 15.)
+tilt_lock (Available if adjustable_tilt is true.  Keeps current tilt value until disabled.)
