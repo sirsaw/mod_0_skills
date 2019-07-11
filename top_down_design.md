@@ -1,6 +1,6 @@
 How to become a Turing student
 
-1. Investigate potential school
+1. Investigate potential schools
     1. Google programming schools
         1. Open your browser
         2. Go to "Google.com"
@@ -13,6 +13,7 @@ How to become a Turing student
     2. Choose a school
         1. Look at your list of school review scores
         2. Determine which school you scored highest
+        3. Realize it's Turing, of course!
 2. Apply to Turing
     1. Attend Turing's "Try Coding" weekend
         1. Go to [turing.io/try-coding/](https://turing.io/try-coding/)
