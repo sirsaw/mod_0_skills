@@ -1,0 +1,15 @@
+Shanes_Computer is an instance of the class computer
+
+Attributes:
+is_on (true)
+total_storage (2056)
+used_storage (512)
+computer_name (string)
+
+
+Methods:
+turn_on (Unavailable because is_on attribute is already true)
+turn_off (Will change is_on attribute to false)
+create_new_file (Will change used_storage to 522)
+available_storage_percent (Using the new used_storage value of 522, the result would be 74.61%)
+rename (new value for computer_name is Bobs_Computer)

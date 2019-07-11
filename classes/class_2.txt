@@ -1,0 +1,15 @@
+Class: computer
+
+Attributes:
+is_on (boolean)
+total_storage (float)
+used_storage (float)
+computer_name (string)
+
+
+Methods:
+turn_on (Available if the is_on attribute is false.  Changes is_on attribute to true.)
+turn_off (Available if the is_on attribute is true.  Changes is_on attribute to false.)
+create_new_file (Increases used_storage attribute by 10.)
+available_storage_percent (Calculates what percentage of the storage is available.  Divides used_storage value by the total_storage value, subtracts that amount from 1, and multiplies result by 100.)
+rename (changes the computer_name value to a user input value)
