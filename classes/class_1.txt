@@ -1,0 +1,14 @@
+Class: chair
+
+Attributes:
+height (integer)
+width (integer)
+max_weight (integer)
+adjustable (boolean)
+wheels (integer)
+
+Methods:
+roll (only available if wheels is greater than 1)
+increase_height (Increases height by 1 each time it is used.  Only available if adjustable attribute is true.)
+decrease_height (Decreases height by 1 each time it is used.  Only available if adjustable attribute is true.)
+break (Reduces height to 0.  Happens if max_weight attribute is exceeded)
